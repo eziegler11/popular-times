@@ -42,7 +42,8 @@ THEN user should be directed to the main page where they need to login
 * Database Languages : SQL, Sequelize
 
 ## Deployed Link
-to be added
+Heroku : https://the-popular-times.herokuapp.com/
+Github Repo: https://github.com/eziegler11/popular-times
 
 ## Installation
 This generator needs to be run in either CLI or shell.
