@@ -35,13 +35,13 @@
     <div class="column is-one-third">
       <div class="card">
         <div class="card-header-title has-text has-text-centered is-size-5">{{title}}</div>
-        {{#if imageEl}}
+        {{!-- {{#if imageEl}}
           <div class="card-image">
-            <figure class="image {{#ifCond 'is-square' '==' imageEl.aspectRatio}}is-square{{/ifCond}}{{#ifCond 'is-16by9' '==' imageEl.aspectRatio}}is-16by9{{/ifCond}}">
-              <img src="{{imageEl.url}}" alt="{{title}}">
-            </figure>
-          </div>
-        {{/if}}
+            {{!-- <figure class="image {{#ifCond 'is-square' '==' imageEl.aspectRatio}}is-square{{/ifCond}}{{#ifCond 'is-16by9' '==' imageEl.aspectRatio}}is-16by9{{/ifCond}}">
+              <img src="{{imageEl.url}}" alt="{{title}}"> --}}
+            {{!-- </figure>
+          </div> --}}
+        {{!-- {{/if}} - --}}
         <div class="card-content has-text has-text-justified">
           {{abstract}}
           <a href="{{url}}">Read more ...</a>
